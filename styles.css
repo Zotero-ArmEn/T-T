@@ -1,0 +1,62 @@
+:root{
+  --bg:#ffffff; --fg:#111111; --muted:#4f5660; --accent:#0b57d0;
+  --card:#f7f7f8; --border:#d0d7de; --ok:#137333; --bad:#c5221f;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--fg);line-height:1.45}
+header{display:flex;justify-content:space-between;align-items:center;padding:10px 16px;border-bottom:1px solid var(--border);background:#fafbfc}
+h1{font-size:18px;margin:0}
+header .meta button{margin-right:8px}
+button{cursor:pointer}
+main{display:flex;min-height:calc(100vh - 56px)}
+aside{width:320px;border-right:1px solid var(--border);padding:10px;overflow:auto;background:#fcfcfd}
+#editor{flex:1;padding:12px;overflow:auto}
+.filters{display:flex;gap:8px;margin-bottom:8px}
+.filters select,.filters input{padding:6px;border:1px solid var(--border);border-radius:6px;background:#fff;color:var(--fg)}
+#item-list{list-style:none;margin:0;padding:0}
+#item-list li{padding:8px;border-radius:8px;cursor:pointer;border:1px solid var(--border);margin-bottom:6px;background:var(--card);transition:background .15s,border-color .15s}
+#item-list li:hover{background:#f1f5ff;border-color:#b6c6ff}
+#item-list li.active{outline:2px solid var(--accent);outline-offset:1px;background:#eef3ff}
+#record-header{display:flex;align-items:flex-start;gap:10px;margin-bottom:12px}
+#record-header #title-wrap{flex:1}
+#item-title{font-size:20px;font-weight:600}
+.subtitle{display:flex;gap:10px;margin-top:6px;flex-wrap:wrap}
+.subtitle input, .subtitle select{padding:6px;border:1px solid var(--border);border-radius:6px;background:#fff;color:var(--fg);min-width:220px}
+#composed-title-preview{display:inline-block;padding:6px 8px;border:1px dashed var(--border);border-radius:6px;background:#fff;color:var(--fg)}
+.panes{display:flex;gap:10px;flex-wrap:wrap}
+.pane{flex:1 1 420px;background:var(--card);border:1px solid var(--border);padding:10px;border-radius:8px;min-height:220px}
+.field{margin:6px 0}
+.field textarea{width:100%;padding:6px;border:1px solid var(--border);border-radius:6px;background:#fff;color:var(--fg)}
+.orig{white-space:pre-wrap;color:#222}
+hr{border:none;border-top:1px solid var(--border);margin:8px 0}
+.actions{display:flex;gap:6px;margin-bottom:8px;flex-wrap:wrap}
+table{width:100%;border-collapse:collapse;background:#fff;border-radius:8px;overflow:hidden}
+th,td{border-bottom:1px solid var(--border);padding:8px;text-align:left;vertical-align:top}
+th{background:#f6f8fa;color:#24292f}
+.badge{padding:2px 6px;border-radius:10px;border:1px solid var(--border);font-size:12px;color:var(--muted);background:#fff}
+.btn{padding:6px 10px;border:1px solid var(--border);background:#fff;color:var(--fg);border-radius:6px;cursor:pointer;transition:background .15s,border-color .15s}
+.btn:hover{background:#f2f4f7}
+.btn-approve{border-color:#c7e8d3;background:#e8f5ed;color:var(--ok)}
+.btn-approve:hover{background:#dff3e6}
+.btn-reject{border-color:#f2c1bd;background:#fdecea;color:var(--bad)}
+.btn-reject:hover{background:#fbe2df}
+.decision{font-weight:600}
+.footer-actions{margin-top:10px;display:flex;gap:8px;align-items:center}
+#save-status{color:var(--muted)}
+details#github-save{margin-top:14px;background:#fff;border:1px solid var(--border);border-radius:8px;padding:8px}
+details#github-save summary{cursor:pointer;font-weight:600}
+.gh-grid{display:grid;grid-template-columns:repeat(3, minmax(180px,1fr));gap:8px;align-items:end;margin-top:8px}
+.gh-grid label{display:flex;flex-direction:column;font-size:12px;color:var(--muted)}
+.gh-grid input{padding:8px;background:#fff;color:var(--fg);border:1px solid var(--border);border-radius:6px}
+.hint{grid-column:1/-1;color:var(--muted);font-size:12px}
+#gh-msg{grid-column:1/-1;color:var(--muted)}
+/* Inputs inside table rows */
+#tags-table input{width:100%;padding:6px;border:1px solid var(--border);border-radius:6px;background:#fff;color:var(--fg)}
+/* Responsive tweaks */
+@media (max-width: 960px){
+  aside{width:280px}
+}
+@media (max-width: 720px){
+  main{flex-direction:column}
+  aside{width:auto;border-right:none;border-bottom:1px solid var(--border)}
+}
