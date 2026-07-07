@@ -1,0 +1,151 @@
+[
+  {
+    "id": 1,
+    "title": "Մի հնչիւնին մի գիր",
+    "title_transliteration": "Mi hnčʿyunin mi gir",
+    "title_translation": "One Sound, One Letter",
+    "status": "pending",
+    "notes": "",
+    "original": {
+      "title": "Մի հնչիւնին մի գիր",
+      "abstract": "",
+      "remainder": "",
+      "keywords": [],
+      "subject": "Լեզվաբանություն",
+      "value": "Ստեփան Մալխասյանց"
+    },
+    "generated": [
+      {"tag":"Լեզվաբանություն","lang":"hy","type":"subject","source":"subject","confidence":1.0},
+      {"tag":"Linguistics","lang":"en","type":"translation","source":"subject","confidence":1.0},
+      {"tag":"Հայոց լեզու","lang":"hy","type":"subject","source":"title","confidence":0.95},
+      {"tag":"Armenian Language","lang":"en","type":"translation","source":"title","confidence":0.95},
+      {"tag":"Հնչյունաբանություն","lang":"hy","type":"subject","source":"title","confidence":0.9},
+      {"tag":"Phonetics","lang":"en","type":"translation","source":"title","confidence":0.9},
+      {"tag":"Ուղղագրություն","lang":"hy","type":"subject","source":"title","confidence":0.85},
+      {"tag":"Orthography","lang":"en","type":"translation","source":"title","confidence":0.85},
+      {"tag":"Ստեփան Մալխասյանց","lang":"hy","type":"person","source":"value","confidence":1.0},
+      {"tag":"Stēpan Malxasyancʿ","lang":"hbm","type":"transliteration","source":"value","confidence":1.0}
+    ],
+    "approved": []
+  },
+  {
+    "id": 2,
+    "title": "Մակբեթ",
+    "title_transliteration": "Makbetʿ",
+    "title_translation": "Macbeth",
+    "status": "pending",
+    "notes": "",
+    "original": {
+      "title": "Մակբեթ",
+      "abstract": "",
+      "remainder": "",
+      "keywords": [],
+      "subject": "Դրամատուրգիա",
+      "value": "Վիլյամ Շեքսպիր; Ստեփան Մալխասյանց"
+    },
+    "generated": [
+      {"tag":"Դրամատուրգիա","lang":"hy","type":"subject","source":"subject","confidence":1.0},
+      {"tag":"Drama","lang":"en","type":"translation","source":"subject","confidence":1.0},
+      {"tag":"Թատրոն","lang":"hy","type":"subject","source":"title","confidence":0.9},
+      {"tag":"Theatre","lang":"en","type":"translation","source":"title","confidence":0.9},
+      {"tag":"Ողբերգություն","lang":"hy","type":"genre","source":"title","confidence":0.95},
+      {"tag":"Tragedy","lang":"en","type":"translation","source":"title","confidence":0.95},
+      {"tag":"Մակբեթ","lang":"hy","type":"work","source":"title","confidence":1.0},
+      {"tag":"Makbetʿ","lang":"hbm","type":"transliteration","source":"title","confidence":1.0},
+      {"tag":"Macbeth","lang":"en","type":"englishName","source":"title","confidence":1.0},
+      {"tag":"Վիլյամ Շեքսպիր","lang":"hy","type":"person","source":"value","confidence":1.0},
+      {"tag":"Vilyam Šekspir","lang":"hbm","type":"transliteration","source":"value","confidence":1.0},
+      {"tag":"William Shakespeare","lang":"en","type":"englishName","source":"value","confidence":1.0},
+      {"tag":"Ստեփան Մալխասյանց","lang":"hy","type":"translator","source":"value","confidence":1.0},
+      {"tag":"Stēpan Malxasyancʿ","lang":"hbm","type":"transliteration","source":"value","confidence":1.0}
+    ],
+    "approved": []
+  },
+  {
+    "id": 3,
+    "title": "Մատենագիտական դիտողություններ",
+    "title_transliteration": "Matenagitakan ditołowtʿyunner",
+    "title_translation": "Bibliographical Observations",
+    "status": "pending",
+    "notes": "",
+    "original": {
+      "title": "Մատենագիտական դիտողություններ",
+      "abstract": "",
+      "remainder": "",
+      "keywords": [],
+      "subject": "Հայ գրականություն",
+      "value": "Ստեփան Մալխասյանց"
+    },
+    "generated": [
+      {"tag":"Հայ գրականություն","lang":"hy","type":"subject","source":"subject","confidence":1.0},
+      {"tag":"Armenian Literature","lang":"en","type":"translation","source":"subject","confidence":1.0},
+      {"tag":"Մատենագիտություն","lang":"hy","type":"subject","source":"title","confidence":0.95},
+      {"tag":"Bibliography","lang":"en","type":"translation","source":"title","confidence":0.95},
+      {"tag":"Գրականագիտություն","lang":"hy","type":"subject","source":"title","confidence":0.75},
+      {"tag":"Literary Studies","lang":"en","type":"translation","source":"title","confidence":0.75},
+      {"tag":"Ստեփան Մալխասյանց","lang":"hy","type":"person","source":"value","confidence":1.0},
+      {"tag":"Stēpan Malxasyancʿ","lang":"hbm","type":"transliteration","source":"value","confidence":1.0}
+    ],
+    "approved": []
+  },
+  {
+    "id": 4,
+    "title": "Առակներ, ավանդություններ, անեկդոտներ",
+    "title_transliteration": "Aṙakner, awanduṭʿyunner, anekdotner",
+    "title_translation": "Fables, Legends, Anecdotes",
+    "status": "pending",
+    "notes": "",
+    "original": {
+      "title": "Առակներ, ավանդություններ, անեկդոտներ",
+      "abstract": "",
+      "remainder": "Ախալցխայի բարբառ",
+      "keywords": [],
+      "subject": "Բանահյուսություն",
+      "value": "Ստեփան Մալխասյանց"
+    },
+    "generated": [
+      {"tag":"Բանահյուսություն","lang":"hy","type":"subject","source":"subject","confidence":1.0},
+      {"tag":"Folklore","lang":"en","type":"translation","source":"subject","confidence":1.0},
+      {"tag":"Առակներ","lang":"hy","type":"genre","source":"title","confidence":0.95},
+      {"tag":"Fables","lang":"en","type":"translation","source":"title","confidence":0.95},
+      {"tag":"Ավանդություններ","lang":"hy","type":"genre","source":"title","confidence":0.95},
+      {"tag":"Legends","lang":"en","type":"translation","source":"title","confidence":0.95},
+      {"tag":"Անեկդոտներ","lang":"hy","type":"genre","source":"title","confidence":0.9},
+      {"tag":"Anecdotes","lang":"en","type":"translation","source":"title","confidence":0.9},
+      {"tag":"Ախալցխայի բարբառ","lang":"hy","type":"dialect","source":"remainder","confidence":0.85},
+      {"tag":"Axalcʿxayi barbaṙ","lang":"hbm","type":"transliteration","source":"remainder","confidence":0.85},
+      {"tag":"Akhaltsikhe Dialect","lang":"en","type":"translation","source":"remainder","confidence":0.8},
+      {"tag":"Ստեփան Մալխասյանց","lang":"hy","type":"person","source":"value","confidence":1.0},
+      {"tag":"Stēpan Malxasyancʿ","lang":"hbm","type":"transliteration","source":"value","confidence":1.0}
+    ],
+    "approved": []
+  },
+  {
+    "id": 5,
+    "title": "Խորենացու առեղծվածի շուրջը",
+    "title_transliteration": "Xorenacʿu aṙełcʿvaci šurǰə",
+    "title_translation": "On the Enigma of Khorenatsi",
+    "status": "pending",
+    "notes": "",
+    "original": {
+      "title": "Խորենացու առեղծվածի շուրջը",
+      "abstract": "",
+      "remainder": "",
+      "keywords": [],
+      "subject": "Հայոց պատմություն",
+      "value": "Ստեփան Մալխասյանց"
+    },
+    "generated": [
+      {"tag":"Հայոց պատմություն","lang":"hy","type":"subject","source":"subject","confidence":1.0},
+      {"tag":"History of Armenia","lang":"en","type":"translation","source":"subject","confidence":1.0},
+      {"tag":"Մովսես Խորենացի","lang":"hy","type":"person","source":"title","confidence":0.95},
+      {"tag":"Movsēs Xorenacʿi","lang":"hbm","type":"transliteration","source":"title","confidence":0.95},
+      {"tag":"Moses of Khoren","lang":"en","type":"englishName","source":"title","confidence":0.95},
+      {"tag":"Արարչագիտություն","lang":"hy","type":"subject","source":"title","confidence":0.5},
+      {"tag":"Historiography","lang":"en","type":"translation","source":"title","confidence":0.5},
+      {"tag":"Ստեփան Մալխասյանց","lang":"hy","type":"person","source":"value","confidence":1.0},
+      {"tag":"Stēpan Malxasyancʿ","lang":"hbm","type":"transliteration","source":"value","confidence":1.0}
+    ],
+    "approved": []
+  }
+]
